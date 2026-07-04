@@ -1,0 +1,5 @@
+Las metodologías ágiles permiten dividir el trabajo en ciclos cortos y entregables, lo que favorece la adaptación rápida a cambios y la participación activa de la comunidad. El uso de un backlog prioriza las tareas más valiosas, asegurando que los esfuerzos se centren en los problemas críticos.
+
+La automatización con n8n elimina procesos manuales repetitivos, reduciendo errores y liberando tiempo para actividades de mayor valor. Además, las notificaciones automáticas a través de Telegram mantienen informados a los coordinadores y miembros del equipo en tiempo real, facilitando la coordinación y la respuesta rápida.
+
+Al combinar estos elementos, se mejora la trazabilidad de acciones, se incrementa la transparencia y se fomenta la colaboración ciudadana, creando un entorno más eficiente y participativo para la gestión de incidencias y la vigilancia comunitaria.
