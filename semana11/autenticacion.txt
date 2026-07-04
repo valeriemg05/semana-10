@@ -1,0 +1,11 @@
+El **login** es el proceso mediante el cual un usuario ingresa sus credenciales (por ejemplo, nombre de usuario y contraseña) para que la aplicación pueda identificar quién es y validar su acceso.
+
+Algunas rutas deben estar protegidas porque pueden exponer información sensible, permitir la modificación de datos o ejecutar acciones críticas (por ejemplo, crear, editar o eliminar causas, ver listados de usuarios, etc.). Si esas rutas no están restringidas, cualquier persona podría acceder a datos privados o realizar operaciones no autorizadas.
+
+Información que **nunca** debe exponerse públicamente incluye:
+- Contraseñas y hashes de contraseñas.
+- Documentos de identidad, números de teléfono, direcciones.
+- Tokens de autenticación, claves de API o cualquier credencial.
+- Datos personales o sensibles de los usuarios o de la comunidad.
+
+Proteger esta información ayuda a mantener la privacidad, la confianza de los usuarios y a cumplir con normas de seguridad y regulaciones.

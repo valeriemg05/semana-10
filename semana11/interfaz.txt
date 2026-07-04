@@ -1,0 +1,23 @@
+La interfaz básica de la plataforma tendría los siguientes componentes:
+
+1. **Formulario para crear una causa**
+   - Campos: título (input text), descripción (textarea), fecha (date picker).
+   - Botón "Crear causa" que envía los datos al backend para guardarlos en la tabla **Causa**.
+
+2. **Lista de causas disponibles**
+   - Cada causa se muestra en una tarjeta con su título, descripción y fecha.
+   - Cada tarjeta incluye un **botón "Apoyar"**.
+
+3. **Botón de apoyo**
+   - Al presionar "Apoyar", se envía al backend un registro en la tabla **Apoyo** (usuario_id, causa_id, fecha_apoyo).
+   - Después de registrar el apoyo, el contador de apoyos de esa causa se actualiza inmediatamente.
+
+4. **Contador de apoyos**
+   - Muestra, junto a cada causa, cuántas personas la han apoyado (por ejemplo, "👍 12 apoyos").
+   - El contador se actualiza en tiempo real tras cada nuevo apoyo.
+
+5. **Diseño**
+   - La UI es clara y sencilla, usando colores suaves y tipografía legible (por ejemplo, Google Font *Inter*).
+   - No se muestra información privada del usuario (solo su nombre de usuario o alias, si corresponde).
+
+Esta estructura permite a los ciudadanos crear causas, apoyar iniciativas y ver la participación de forma transparente, sin exponer datos sensibles.

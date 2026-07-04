@@ -1,0 +1,21 @@
+Entidad: Causa
+
+Campos principales:
+- id (UUID)
+- titulo (string)
+- descripcion (string)
+- fecha_creacion (date)
+
+Propósito:
+Almacenar la información de cada causa comunitaria que será visible para todos los usuarios de la plataforma.
+
+Entidad: Apoyo
+
+Campos principales:
+- id (UUID)
+- causa_id (UUID, referencia a Causa)
+- usuario_id (UUID, referencia al usuario que apoya)
+- fecha_apoyo (date)
+
+Propósito:
+Registrar cada apoyo que un usuario brinda a una causa, permitiendo llevar conteo y trazabilidad de la participación.
